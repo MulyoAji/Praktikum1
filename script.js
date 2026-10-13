@@ -33,7 +33,7 @@ document.getElementById("daftarHobi").innerHTML = biodata.hobi
 .join(" ");
 
 document.getElementById("daftarmedia").innerHTML = biodata.media
-.map(m => `<a href="${m.url}" target="_blank" rel="noopener noreferrer">${m.nama}</a>`)
+.map(m => `<a href="${m.url}" rel="noopener noreferrer">${m.nama}</a>`)
 .join(" ");
 
 // Tombol tampilkan/sembunyikan hobi
